@@ -1,0 +1,63 @@
+*{
+    font-family: 'Roboto',sans-serif;
+    margin:0;
+    padding:0
+}
+.header{
+    background-color: black;
+    padding: 20px;
+    margin:auto;
+    margin-top:20px;
+    width:700px;
+}
+.main{
+    display:flex;
+    margin:auto;
+    width:auto;
+    justify-content:center;
+}
+.leftcontainer,.rightcontainer{
+    margin:20px;
+    vertical-align:top;
+}
+.profile{
+    display:flex;
+    flex-direction: column;
+    border:1px solid black;
+    padding:30px;
+    height:170px;
+    justify-content: space-evenly;
+}
+.post1,.post2,.post3{
+    border:1px solid black;
+    padding:30px;
+    height:100px;
+    width:400px;
+    margin:0px 0px 15px 0px;
+}
+.top{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.justright{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width:40%;
+    align-items: center;
+}
+button{
+    padding:5px;
+}
+.bottom{
+    margin-top:25px;
+}
+#like1,#like2,#like3{
+    background-color: goldenrod;
+    color:black;
+    padding:6px;
+    border:1px solid;
+    box-shadow: 2px 2px;
+    cursor:pointer;
+}

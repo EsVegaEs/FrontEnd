@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojo Weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <div>
+            <h1>DojoWeather</h1>
+        </div>
+        <div class="cities">
+            <a href="#" onclick="citychange()"><h3>Burbank</h3></a>
+            <a href="#" onclick="citychange()"><h3>Chicago</h3></a>
+            <a href="#" onclick="citychange()"><h3>Dallas</h3></a>
+        </div>
+    </div>
+    <div class="main">
+        <div class="currentcity">
+            <h2 style="font-size:200%">San Jose</h2>
+            <div class="temps">
+                <p>Show temperature in:</p>
+                <select onchange="showTempIn(this)">
+                    <option>°C</option>
+                    <option>°F</option>
+                    <option>Rankine</option>
+                    <option>Kelvin</option>
+                </select>
+            </div>
+        </div>
+        <div class="tempcity">
+            <div class="generic">
+                <h2>Today</h2>
+                <img src="assets/some_rain.png" width="120px">
+                <p>some rain</p>
+                <div class="minmax">
+                    <p id='maxtemp1'>24°</p>
+                    <p id='mintemp1'>18°</p>
+                </div>
+            </div>
+            <div class="generic">
+                <h2>Tomorrow</h2>
+                <img src="assets/some_sun.png" width="120px">
+                <p>some sun</p>
+                <div class="minmax">
+                    <p id='maxtemp2'>27°</p>
+                    <p id='mintemp2'>19°</p>
+                </div>
+            </div>
+            <div class="generic">
+                <h2>Wednesday</h2>
+                <img src="assets/some_clouds.png" width="120px">
+                <p>some clouds</p>
+                <div class="minmax">
+                    <p id='maxtemp3'>21°</p>
+                    <p id='mintemp3'>16°</p>
+                </div>
+            </div>
+            <div class="generic">
+                <h2>Thursday</h2>
+                <img src="assets/some_rain.png" width="120px">
+                <p>some rain</p>
+                <div class="minmax">
+                    <p id='maxtemp4'>20°</p>
+                    <p id='mintemp4'>15°</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="cookies">
+        <div class="imagecookie">
+            <img src="assets/cookie.png" width="70px" class="cookieimg">
+        </div>
+        <div class="textalert">
+            <h3>Stop! Cookie time</h3>
+            <p>We use cookies (Sadly not the edible ones) to personalize content and ads, to provide social media features and to analyse our traffic. <a href=# style="text-decoration:underline">Read more...</a></p>
+        </div>
+        <button class="btnaccept" onclick="removecookies()">I accept</button>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

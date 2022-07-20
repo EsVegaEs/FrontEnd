@@ -1,0 +1,118 @@
+*{
+    font-family: 'Open Sans',sans-serif;
+    margin:0;
+    padding:0;
+}
+h1{
+    font-size: 200%;
+}
+.header{
+    margin:auto;
+    width:auto;
+    height:auto;
+    background-color:rgb(111, 162, 194);
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items: center;
+
+
+    padding:20px 100px 20px 100px;
+    color:white;
+}
+.cities{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    align-items: center;
+    width:50%;
+}
+.currentcity{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin:10px 100px 10px 100px;
+    align-items: center;
+    box-shadow: 0px 2px black;
+    padding-bottom:20px;
+    padding-top:10px;
+}
+.temps{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+select{
+    margin-left:5px;
+}
+
+.tempcity{
+    margin:auto;
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.generic{
+    margin:10px;
+    background-color:rgb(230, 230, 230);
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding:20px;
+    width:auto;
+    height:auto;
+}
+img{
+    border-radius: 50%;
+    margin:10px;
+}
+.minmax{
+    display:flex;
+    justify-content: space-evenly;
+    width:80%;
+}
+#maxtemp1,#mintemp1,#maxtemp2,#mintemp2,#maxtemp3,#mintemp3,#maxtemp4,#mintemp4{
+    font-size: 150%;
+    margin-top:10px;
+}
+#maxtemp1,#maxtemp2,#maxtemp3,#maxtemp4{
+    color:crimson;
+}
+#mintemp1,#mintemp2,#mintemp3,#mintemp4{
+    color:cornflowerblue;
+}
+
+
+a{
+    text-decoration: none;
+    color:white;
+}
+#cookies{
+    position:fixed;
+    background-color: rgb(230, 230, 230);
+    width:800px;
+    margin:auto;
+    border:1px solid black;
+    margin-top: 20px;
+    display:flex;
+    flex-direction: row;
+    padding:20px;
+    align-items: center;
+    bottom:40px;
+    left:20%;
+    right:20%;
+}
+img .cookieimg{
+    margin:10px 30px 10px 10px;
+}
+.btnaccept{
+    width:100px;
+    height:30px;
+    background-color:rgb(111, 162, 194);
+    color:black;
+    box-shadow: 3px 3px black;
+    border:1px solid black;
+    cursor:pointer;
+}

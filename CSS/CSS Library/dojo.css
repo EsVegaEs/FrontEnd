@@ -1,0 +1,101 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+      
+  /* Clase fixed-width container que se "autocentrará" a sí misma */
+  .container {
+    width: 1200px;
+    margin: 0 auto;
+  }
+*{
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    margin:10px;
+}
+.Button{
+    margin:auto;
+    display:flex;
+    width:150px;
+}
+.nav{
+    display:flex;
+    margin:auto;
+    width:950px;
+    height:60px;
+    background-color:rgb(50,50,50);
+    justify-content:space-between;
+}
+.nav-title{
+    display:flex;
+    justify-content:flex-start;
+    color:white;
+}
+.nav-links{
+    display:flex;
+
+}
+li{
+    margin:10px;
+    color:white;
+}
+ul{
+    list-style-type: none;
+}
+ul:nth-child(3){
+    font-weight:bold;
+}
+a{
+    color:white;
+    text-decoration: none;
+    margin-left:10px;
+}
+.btn1{
+    border-radius:0;
+    border-style: solid;
+    border-color:black;
+    background-color:darkcyan;
+    box-shadow: 2px 2px black;
+    color:white;
+}  
+.container{
+    width: 950px;
+    background-color: silver;
+    margin: 10px auto;
+    padding:10px
+}
+.top-nav {
+    height: 150px;
+    background-color: green;
+    margin:15px;
+}
+.side-nav {
+    height: 300px;
+    width: 200px;
+    background-color: blue;
+    margin:15px 15px 15px 15px;
+}
+.main {
+    height: 400px;
+    width: 700px;
+    background-color: red;
+    margin:15px 10px 15px 15px;
+}
+.sub-content {
+    height: 200px;
+    width: 210px;
+    background-color: yellow;
+    margin:10px 0px 10px 15px;
+}
+#advertisement {
+    height: 120px;
+    width: 660px;
+    background-color: purple;
+    margin:15px;
+}
+.row {
+    /* TODO - what should go here? */
+    display:flex;
+}
